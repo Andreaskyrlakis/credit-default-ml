@@ -1,0 +1,83 @@
+{
+  "iv": {
+    "fico": 0.1387,
+    "annual_inc": 0.0831,
+    "dti": 0.044,
+    "loan_to_income": 0.0419,
+    "mort_acc": 0.0349,
+    "home_ownership": 0.0349,
+    "revol_util": 0.0254,
+    "purpose": 0.0252,
+    "inq_last_6mths": 0.0245,
+    "credit_age_years": 0.0187,
+    "emp_years": 0.0162,
+    "revol_bal": 0.0141,
+    "total_acc": 0.0093,
+    "verification_status": 0.0068,
+    "loan_amnt": 0.0051,
+    "pub_rec_bankruptcies": 0.0036,
+    "months_since_delinq": 0.0019,
+    "delinq_2yrs": 0.0013,
+    "pub_rec": 0.0006,
+    "region": 0.0003,
+    "open_acc": 0.0002
+  },
+  "selected": [
+    "fico",
+    "annual_inc",
+    "dti",
+    "loan_to_income",
+    "mort_acc",
+    "home_ownership",
+    "revol_util",
+    "purpose",
+    "inq_last_6mths"
+  ],
+  "coefficients": {
+    "fico": -0.8617,
+    "annual_inc": -0.519,
+    "dti": -0.5972,
+    "loan_to_income": -0.7112,
+    "mort_acc": -0.2947,
+    "home_ownership": -0.3986,
+    "revol_util": -0.1415,
+    "purpose": -1.0351,
+    "inq_last_6mths": -1.0897
+  },
+  "valid": {
+    "auc": 0.6460425657301387,
+    "gini": 0.2920851314602775,
+    "ks": 0.21090975899831377,
+    "brier": 0.12438459005543906,
+    "pr_auc": 0.2293264023235525
+  },
+  "test": {
+    "auc": 0.6501322832704255,
+    "gini": 0.300264566540851,
+    "ks": 0.2166365306397342,
+    "brier": 0.12128928012038565,
+    "pr_auc": 0.23145615870497124
+  },
+  "lc_subgrade_test": {
+    "auc": 0.6814088410448281,
+    "gini": 0.36281768208965626,
+    "ks": 0.2665075244180387,
+    "brier": 0.1198002774593829,
+    "pr_auc": 0.2512444768650746
+  },
+  "score_range_test": [
+    511.3334777379863,
+    586.9633943102439
+  ],
+  "n_bins": {
+    "fico": 10,
+    "annual_inc": 10,
+    "dti": 10,
+    "loan_to_income": 10,
+    "mort_acc": 6,
+    "home_ownership": 4,
+    "revol_util": 11,
+    "purpose": 9,
+    "inq_last_6mths": 4
+  }
+}

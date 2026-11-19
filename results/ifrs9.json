@@ -1,0 +1,81 @@
+{
+  "reporting_date": "2016-06-30",
+  "lgd_ead_weighted": 0.8919597856496615,
+  "lgd_mean": 0.8920367386844741,
+  "lgd_median": 0.9019675998493956,
+  "n_training_defaults": 44472,
+  "timing_share_first_12m": 0.3126011872638964,
+  "timing_share_first_24m": 0.7336301493074294,
+  "macro_link": {
+    "intercept": -4.158742662942137,
+    "beta_unemployment": 0.06455383254310228,
+    "r2": 0.08021095669480993,
+    "n_quarters": 166,
+    "start": "1985-01-01",
+    "end": "2026-04-01"
+  },
+  "unemployment_at_reporting_date": 4.9,
+  "portfolio": {
+    "loans_in_test": 161997,
+    "open_at_R": 148291,
+    "repaid_before_R": 12744,
+    "charged_off_before_R": 962,
+    "ead_total": 1516006336.006863
+  },
+  "pd_12m_mean": 0.066194665132928,
+  "pd_lifetime_remaining_mean": 0.1246979210843074,
+  "stages": {
+    "1": {
+      "n": 145979.0,
+      "ead": 1493422519.7160761,
+      "ecl": 66372954.53748603,
+      "coverage": 0.044443520612039926
+    },
+    "2": {
+      "n": 1375.0,
+      "ead": 13678081.19590346,
+      "ecl": 1111297.83552271,
+      "coverage": 0.08124661782644924
+    },
+    "3": {
+      "n": 937.0,
+      "ead": 8905735.09488351,
+      "ecl": 7943557.566284964,
+      "coverage": 0.8919597856496615
+    }
+  },
+  "stage2_by_dpd": 1375,
+  "stage2_by_sicr_pd_test": 0,
+  "ecl_weighted": 75427809.93929371,
+  "coverage_weighted": 0.049754284100137325,
+  "scenarios": {
+    "upside": {
+      "weight": 0.15,
+      "delta_unemployment": -1.0,
+      "unemployment": 3.9000000000000004,
+      "ecl": 69627866.71936283
+    },
+    "base": {
+      "weight": 0.6,
+      "delta_unemployment": 0.0,
+      "unemployment": 4.9,
+      "ecl": 73100153.47096358
+    },
+    "downside": {
+      "weight": 0.25,
+      "delta_unemployment": 3.0,
+      "unemployment": 7.9,
+      "ecl": 84494151.39524454
+    }
+  },
+  "ecl_all_stage1_12m_base": 65408272.09320942,
+  "ecl_all_lifetime_base": 88933762.45095478,
+  "backtest": {
+    "performing_loans": 147354,
+    "defaulted_after_R": 19689,
+    "realised_default_rate": 0.13361700394967221,
+    "predicted_remaining_lifetime_pd": 0.12445115356385127,
+    "realised_principal_loss": 115424631.26419887,
+    "predicted_lifetime_loss_undiscounted_base": 96563063.23571107
+  }
+}

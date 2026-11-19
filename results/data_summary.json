@@ -1,0 +1,51 @@
+{
+  "raw_rows_36m_individual": 1539979,
+  "issued_2007_2015": 620926,
+  "unresolved_2007_2015_dropped": 147,
+  "modelling_sample": 620779,
+  "default_rate": 0.1394393173738158,
+  "splits": {
+    "train": {
+      "n": 337992,
+      "defaults": 44472,
+      "default_rate": 0.13157707874742597,
+      "first_issue": "2007-06-01",
+      "last_issue": "2014-12-01"
+    },
+    "valid": {
+      "n": 120790,
+      "defaults": 18269,
+      "default_rate": 0.15124596406987334,
+      "first_issue": "2015-01-01",
+      "last_issue": "2015-06-01"
+    },
+    "test": {
+      "n": 161997,
+      "defaults": 23820,
+      "default_rate": 0.14703975999555546,
+      "first_issue": "2015-07-01",
+      "last_issue": "2015-12-01"
+    }
+  },
+  "missing_share": {
+    "emp_years": 0.05819140144882478,
+    "credit_age_years": 4.0271980849867664e-05,
+    "open_acc": 4.0271980849867664e-05,
+    "pub_rec": 4.0271980849867664e-05,
+    "revol_util": 0.000615355867385978,
+    "total_acc": 4.0271980849867664e-05,
+    "inq_last_6mths": 4.0271980849867664e-05,
+    "delinq_2yrs": 4.0271980849867664e-05,
+    "mort_acc": 0.06049656963267121,
+    "pub_rec_bankruptcies": 0.0021924066374667955
+  },
+  "default_rate_by_grade": {
+    "A": 0.0548,
+    "B": 0.1121,
+    "C": 0.1793,
+    "D": 0.2336,
+    "E": 0.2854,
+    "F": 0.3301,
+    "G": 0.3886
+  }
+}

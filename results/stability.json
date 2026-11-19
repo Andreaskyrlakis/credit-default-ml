@@ -1,0 +1,244 @@
+{
+  "champion": "mlp",
+  "psi_score": {
+    "train_vs_valid": 0.0036436301090615776,
+    "train_vs_test": 0.0014332973882417819
+  },
+  "psi_by_quarter": {
+    "2016Q1": {
+      "n": 94592,
+      "psi": 0.0038880786269689304,
+      "mean_raw_pd": 0.13469043483282278
+    },
+    "2016Q2": {
+      "n": 73666,
+      "psi": 0.0010341720262897246,
+      "mean_raw_pd": 0.1368880229227748
+    },
+    "2016Q3": {
+      "n": 73579,
+      "psi": 0.005078630805617473,
+      "mean_raw_pd": 0.13765579431007077
+    },
+    "2016Q4": {
+      "n": 76440,
+      "psi": 0.003088962735275075,
+      "mean_raw_pd": 0.1333970963952451
+    },
+    "2017Q1": {
+      "n": 69778,
+      "psi": 0.008803354179936433,
+      "mean_raw_pd": 0.12911320833934412
+    },
+    "2017Q2": {
+      "n": 73380,
+      "psi": 0.01228284595505459,
+      "mean_raw_pd": 0.12815673495469682
+    },
+    "2017Q3": {
+      "n": 80528,
+      "psi": 0.011653893941081515,
+      "mean_raw_pd": 0.12816791186956006
+    },
+    "2017Q4": {
+      "n": 72798,
+      "psi": 0.04219941780472969,
+      "mean_raw_pd": 0.1205539344619836
+    },
+    "2018Q1": {
+      "n": 65848,
+      "psi": 0.0566346609296607,
+      "mean_raw_pd": 0.11872690631243518
+    },
+    "2018Q2": {
+      "n": 81015,
+      "psi": 0.042981510400327855,
+      "mean_raw_pd": 0.12078347962039354
+    },
+    "2018Q3": {
+      "n": 79093,
+      "psi": 0.06789779577788026,
+      "mean_raw_pd": 0.11639648828998682
+    },
+    "2018Q4": {
+      "n": 78336,
+      "psi": 0.07080220729492781,
+      "mean_raw_pd": 0.11623206400276284
+    }
+  },
+  "psi_features_train_vs_test": {
+    "verification_status": 0.10872838673197817,
+    "inq_last_6mths": 0.048709782411059416,
+    "dti": 0.0424077792742263,
+    "purpose": 0.03539546489142181,
+    "revol_util": 0.02643804595680554,
+    "credit_age_years": 0.024768985815362028,
+    "pub_rec": 0.017949771534103934,
+    "open_acc": 0.015688021217114767,
+    "emp_years": 0.014920659603173013,
+    "loan_amnt": 0.012970269954554463,
+    "annual_inc": 0.009122748331462273,
+    "months_since_delinq": 0.009048175536847253,
+    "mort_acc": 0.008195935618537514,
+    "delinq_2yrs": 0.007131130644132167,
+    "home_ownership": 0.00660952671647939,
+    "fico": 0.006263104587001244,
+    "revol_bal": 0.005246446281679603,
+    "region": 0.004349058739676193,
+    "pub_rec_bankruptcies": 0.004107046323993386,
+    "loan_to_income": 0.0022267031839610083,
+    "total_acc": 0.00048623105153663797
+  },
+  "groups": {
+    "home_ownership": [
+      {
+        "group": "MORTGAGE",
+        "n": 75345,
+        "observed_dr": 0.1197,
+        "predicted_pd": 0.1182,
+        "auc": 0.677
+      },
+      {
+        "group": "OWN",
+        "n": 18601,
+        "observed_dr": 0.1583,
+        "predicted_pd": 0.1563,
+        "auc": 0.6472
+      },
+      {
+        "group": "RENT",
+        "n": 68050,
+        "observed_dr": 0.1743,
+        "predicted_pd": 0.1756,
+        "auc": 0.6539
+      }
+    ],
+    "region": [
+      {
+        "group": "Midwest",
+        "n": 29113,
+        "observed_dr": 0.1433,
+        "predicted_pd": 0.1463,
+        "auc": 0.6814
+      },
+      {
+        "group": "Northeast",
+        "n": 33065,
+        "observed_dr": 0.1473,
+        "predicted_pd": 0.1467,
+        "auc": 0.665
+      },
+      {
+        "group": "South",
+        "n": 57970,
+        "observed_dr": 0.1518,
+        "predicted_pd": 0.148,
+        "auc": 0.6668
+      },
+      {
+        "group": "West",
+        "n": 41849,
+        "observed_dr": 0.1428,
+        "predicted_pd": 0.145,
+        "auc": 0.6769
+      }
+    ],
+    "income_quintile": [
+      {
+        "group": "Q1 (lowest)",
+        "n": 33835,
+        "observed_dr": 0.1934,
+        "predicted_pd": 0.2031,
+        "auc": 0.6333
+      },
+      {
+        "group": "Q2",
+        "n": 33136,
+        "observed_dr": 0.1595,
+        "predicted_pd": 0.1626,
+        "auc": 0.6505
+      },
+      {
+        "group": "Q3",
+        "n": 31367,
+        "observed_dr": 0.1449,
+        "predicted_pd": 0.1406,
+        "auc": 0.6624
+      },
+      {
+        "group": "Q4",
+        "n": 33741,
+        "observed_dr": 0.1277,
+        "predicted_pd": 0.1218,
+        "auc": 0.6762
+      },
+      {
+        "group": "Q5 (highest)",
+        "n": 29918,
+        "observed_dr": 0.1049,
+        "predicted_pd": 0.0995,
+        "auc": 0.6903
+      }
+    ],
+    "employment": [
+      {
+        "group": "missing",
+        "n": 11398,
+        "observed_dr": 0.2152,
+        "predicted_pd": 0.173,
+        "auc": 0.6529
+      },
+      {
+        "group": "0-1 y",
+        "n": 24895,
+        "observed_dr": 0.1532,
+        "predicted_pd": 0.1582,
+        "auc": 0.6538
+      },
+      {
+        "group": "2-4 y",
+        "n": 37091,
+        "observed_dr": 0.1468,
+        "predicted_pd": 0.1573,
+        "auc": 0.6674
+      },
+      {
+        "group": "5-9 y",
+        "n": 36844,
+        "observed_dr": 0.1441,
+        "predicted_pd": 0.1487,
+        "auc": 0.672
+      },
+      {
+        "group": "10+ y",
+        "n": 51769,
+        "observed_dr": 0.1313,
+        "predicted_pd": 0.1262,
+        "auc": 0.6806
+      }
+    ],
+    "verification_status": [
+      {
+        "group": "Not Verified",
+        "n": 42500,
+        "observed_dr": 0.103,
+        "predicted_pd": 0.1083,
+        "auc": 0.6849
+      },
+      {
+        "group": "Source Verified",
+        "n": 69611,
+        "observed_dr": 0.1419,
+        "predicted_pd": 0.1475,
+        "auc": 0.6476
+      },
+      {
+        "group": "Verified",
+        "n": 49886,
+        "observed_dr": 0.1917,
+        "predicted_pd": 0.1782,
+        "auc": 0.6511
+      }
+    ]
+  }
+}

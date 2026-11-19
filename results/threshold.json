@@ -1,0 +1,50 @@
+{
+  "c_fp_refuse_good": 0.16527766473910868,
+  "c_fn_accept_bad": 0.3588320117026987,
+  "cost_ratio_fn_over_fp": 2.171085925428074,
+  "bayes_cutoff": 0.31534938614601155,
+  "cost_min_cutoff_valid": 0.31,
+  "profit_max_cutoff_valid": 0.355,
+  "test": {
+    "approve_all": {
+      "cutoff": 1.01,
+      "approval_rate": 1.0,
+      "default_rate_approved": 0.14703975999555546,
+      "default_rate_refused": null,
+      "good_refused_share": 0.0,
+      "bad_caught_share": 0.0,
+      "profit_usd": 131834129.99451764,
+      "profit_per_dollar_lent": 0.06349878366985445
+    },
+    "bayes_cutoff": {
+      "cutoff": 0.31534938614601155,
+      "approval_rate": 0.979777403285246,
+      "default_rate_approved": 0.14234411325533483,
+      "default_rate_refused": 0.37454212454212454,
+      "good_refused_share": 0.014828806530754033,
+      "bad_caught_share": 0.05151133501259446,
+      "profit_usd": 132973621.40180622,
+      "profit_per_dollar_lent": 0.06522473090990656
+    },
+    "cost_min_on_valid": {
+      "cutoff": 0.31,
+      "approval_rate": 0.979777403285246,
+      "default_rate_approved": 0.14234411325533483,
+      "default_rate_refused": 0.37454212454212454,
+      "good_refused_share": 0.014828806530754033,
+      "bad_caught_share": 0.05151133501259446,
+      "profit_usd": 132973621.40180622,
+      "profit_per_dollar_lent": 0.06522473090990656
+    },
+    "profit_max_on_valid": {
+      "cutoff": 0.355,
+      "approval_rate": 0.9957036241411878,
+      "default_rate_approved": 0.14590734093403016,
+      "default_rate_refused": 0.40948275862068967,
+      "good_refused_share": 0.0029744458194923902,
+      "bad_caught_share": 0.011964735516372796,
+      "profit_usd": 132179993.14716978,
+      "profit_per_dollar_lent": 0.06392371998597952
+    }
+  }
+}

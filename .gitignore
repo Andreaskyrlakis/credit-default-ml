@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# private interview preparation (French), not for the public repo
+prive/
+# raw and processed data (1.7 GB raw file; rebuilt by scripts/01 and 02)
+data/raw/*.csv
+data/processed/
+# run logs
+results/log_*.txt
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.toc
